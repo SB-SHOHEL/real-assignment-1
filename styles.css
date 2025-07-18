@@ -147,7 +147,16 @@ border-radius:10px;
 border:none;
 margin: 20px;
 }
-.focus-img {
-padding:70px 150px;
+.image-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.image-container img{
+    max-width:840px;
+    height:auto;
+    border-radius:20px;
+    margin-bottom:70px;
 }
 
